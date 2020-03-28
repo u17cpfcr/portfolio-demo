@@ -1,0 +1,82 @@
+
+
+body {
+    background-color: lightblue;
+    background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+
+    /* do not save for everybody */
+    margin:0;
+    padding:0;
+
+}
+
+
+#navbar {
+    width: 100%;
+    height: 60px;
+    background-color: darkslategray;
+    position: absolute;
+    top:0;
+}
+
+
+.listItem{
+list-style-type:none;
+display: inline-block;
+float: right;
+margin-right: 16px;
+}
+
+.listItem a{
+color: lightslategray;
+text-decoration: none;
+font-size: 20px;
+
+
+}
+
+#brand{
+
+    float: left;
+}
+
+.listItem a:hover {
+
+    color:  yellow;
+}
+
+header{
+
+    height: 70vh;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#imageBox{
+    height: 300px;
+    width: 300px;
+    background-image: url('./Profile.jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 1px 5px rgba(0,0,0.3)
+}
+
+#ImageBox:hover{
+    box-shadow:  2px 1px 5px rgba (0,0,0.3)
+}
+
+#greetingBox{
+
+    color: darkslategrey;
+
+}
+
+#greetinBox h1{
+    font-size: 40px;
+}
+
+#greetinBox {
+    font-size: 10px;
+}
